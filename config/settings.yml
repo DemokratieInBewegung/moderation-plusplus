@@ -1,0 +1,13 @@
+plugins:
+  moderation_pp_enabled:
+    default: true
+    client: true
+  moderation_pp_daily_max_posts:
+    default: 30
+    client: true
+  moderation_pp_daily_max_topics:
+    default: 5
+    client: true
+  moderation_pp_daily_max_posts_per_topic:
+    default: 3
+    client: true
