@@ -3,11 +3,11 @@ plugins:
     default: true
     client: true
   moderation_pp_daily_max_posts:
-    default: 30
-    client: true
-  moderation_pp_daily_max_topics:
-    default: 5
+    default: 25
     client: true
   moderation_pp_daily_max_posts_per_topic:
     default: 3
+    client: true
+  moderation_pp_max_posts_per_topic:
+    default: 10
     client: true

@@ -2,5 +2,5 @@ en:
   site_settings:
     moderation_pp_enabled: "Moderation++ enabled"
     moderation_pp_daily_max_posts: "Maximum daily posts per User"
-    moderation_pp_daily_max_topics: "Maximum daily new topics per User"
     moderation_pp_daily_max_posts_per_topic: "Maximum daily posts per Topic per User"
+    moderation_pp_max_posts_per_topic: "Maximum posts per Topic per User"
