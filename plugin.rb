@@ -29,6 +29,15 @@ module ModerationPlusPlusGuardian
       .count() >= SiteSetting.moderation_pp_daily_max_posts_per_topic
   end
 
+  def mpp_has_reached_fiveday_max_posts_on_topic?(topic)
+    return true if current_user
+      .posts
+      .public_posts
+      .created_since(Time.now - 120.hours)
+      .where(:topic => topic)
+      .count() >= SiteSetting.moderation_pp_fiveday_max_posts_per_topic
+  end
+
   def mpp_has_reached_max_posts_on_topic?(topic)
     return true if current_user
       .posts
@@ -44,6 +53,7 @@ module ModerationPlusPlusGuardian
 
     return false if mpp_has_reached_daily_max_posts?
     return false if mpp_has_reached_daily_max_posts_on_topic?(parent)
+    return false if mpp_has_reached_fiveday_max_posts_on_topic?(parent)
     return false if mpp_has_reached_max_posts_on_topic?(parent)
 
     true

@@ -8,6 +8,9 @@ plugins:
   moderation_pp_daily_max_posts_per_topic:
     default: 3
     client: true
-  moderation_pp_max_posts_per_topic:
+  moderation_pp_fiveday_max_posts_per_topic:
     default: 10
+    client: true
+  moderation_pp_max_posts_per_topic:
+    default: 25
     client: true
