@@ -57,9 +57,12 @@ module ModerationPlusPlusGuardian
   end
 
   def moderation_pp_can_create_post(topic)
+    # only in charge if enabled.
+    return true unless SiteSetting.moderation_pp_enabled
     # we only restrict more
     return true unless topic
-    return true unless SiteSetting.moderation_pp_enabled
+    # we are not in charge for direct messages
+    return true unless topic.category
 
     cat_fields = topic.category.custom_fields
 
