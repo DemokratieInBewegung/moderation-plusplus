@@ -109,23 +109,6 @@ module ModerationPlusPlusGuardian
   end
 end
 
-module ModerationPlusPlusTopicViewSerializer
-  def self.included(base)
-    base.instance_eval do
-      alias_method :details_before_extra_create_post, :details
-      alias_method :details, :new_details
-    end
-  end
-  def new_details
-    # and explicitly export the flag to make sure
-    # the UI shows this properly
-    data = details_before_extra_create_post
-    data[:can_create_post] = false if !data[:can_create_post]
-    data
-  end
-end
-
-
 after_initialize do
 
   # custom fields per category
@@ -136,7 +119,6 @@ after_initialize do
   puts "Now with category based limitations"
 
   Guardian.send :include, ModerationPlusPlusGuardian
-  TopicViewSerializer.send :include, ModerationPlusPlusTopicViewSerializer
   puts "DC Mod++: We have patched!"
 end
 
