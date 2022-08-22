@@ -1,0 +1,7 @@
+de:
+  site_settings:
+    moderation_pp_enabled: "Moderation++ aktiviert"
+    moderation_pp_daily_max_posts: "Max Benutzer*innen Beiträge pro Tag insgesamt"
+    moderation_pp_daily_max_posts_per_topic: "Max Benutzer*innen Beiträge pro Tag pro Thema"
+    moderation_pp_daily_max_posts_per_topic: "Max Benutzer*innen Beiträge pro Thema innerhalb von 120 Stunden (5 Tage)"
+    moderation_pp_max_posts_per_topic: "Max Benutzer*innen Beiträge pro Thema pro Benutzer*in insgesamt"
