@@ -1,0 +1,9 @@
+de:
+  js:
+    category:
+      moderation_pp_title: "Moderation++"
+      moderation_pp_help: "Setze stattdessen konfigurierbares Beitrags-Limit nur für diese Kategorie (leer|0 -> globales Default; -1 deaktivert globales Default)"
+      moderation_pp_daily_max_posts: "Max Benutzer*innen Beiträge pro Tag insgesamt"
+      moderation_pp_daily_max_posts_per_topic: "Max Benutzer*innen Beiträge pro Tag pro Thema"
+      moderation_pp_fiveday_max_posts_per_topic: "Max Benutzer*innen Beiträge pro Thema innerhalb von 120 Stunden (5 Tage) "
+      moderation_pp_max_posts_per_topic: "Max Benutzer*innen Beiträge pro Thema pro Benutzer*in insgesamt"
