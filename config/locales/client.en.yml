@@ -5,5 +5,5 @@ en:
       moderation_pp_help: "Set custom posting limits for this category to use instead (empty|0 -> global default; -1 disables global default)"
       moderation_pp_daily_max_posts: "max user posts per day"
       moderation_pp_daily_max_posts_per_topic: "max user posts per topic per day"
-      moderation_pp_fiveday_max_posts_per_topic: "max user posts per topic over 120h (5days) "
+      moderation_pp_fiveday_max_posts_per_topic: "max user posts per topic over 120h (5 days) "
       moderation_pp_max_posts_per_topic: "max posts per topics per user overall"
