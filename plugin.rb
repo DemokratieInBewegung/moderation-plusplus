@@ -1,7 +1,7 @@
 # name: moderation++
 # about: Enhance Moderation Features for Discourse
-# version: 0.0.2
-# authors: Benjamin Kampmann, Ronja, Guido
+# version: 0.0.3
+# authors: Benjamin Kampmann, Guido Drehsen
 
 
 
