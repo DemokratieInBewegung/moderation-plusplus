@@ -1,4 +1,4 @@
-# name: moderation++
+# name: moderation-plusplus
 # about: Enhance Moderation Features for Discourse
 # version: 0.0.3
 # authors: Benjamin Kampmann, Guido Drehsen
